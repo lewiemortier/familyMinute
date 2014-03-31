@@ -1,0 +1,41 @@
+.container{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.top{
+	height: 17.5%;
+	width: 100%;
+}
+
+.bottom{
+	background-color: #FF6633;
+	height: 82.5%;
+	width: 100%;
+}
+
+.photo{
+	top: 5%;
+	width: 50%;
+	height: 25%;
+	margin-left: 25%;
+	position: absolute;
+	background-color: #CC0066;
+}
+
+.form{
+	top: 32.5%;
+	width: 50%;
+	height: 25%;
+	margin-left: 25%;
+	position: absolute;
+}
+
+.sign-up{
+	top: 90%;
+	margin-left: 33%;
+	width: 34%;
+	font-size: 12px;
+	position: absolute;
+}
