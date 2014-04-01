@@ -1,0 +1,52 @@
+.container{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.top{
+	height: 15%;
+	width: 100%;
+	background-color: #FF6633;
+}
+
+.bottom{
+	height: 85%;
+	width: 100%;
+}
+
+.navigation{
+	background-color: #c0c0c0;
+	top: 10%;
+	width: 100%;
+	position: absolute;
+}
+
+.link{
+	width: 14%;
+}
+
+.home{
+	margin-left: 5%;
+	position: absolute;
+}
+
+.post{
+	margin-left: 24%;
+	position: absolute;
+}
+
+.my-family{
+	margin-left: 43%;
+	position: absolute;
+}
+
+.schedule{
+	margin-left: 62%;
+	position: absolute;
+}
+
+.time-travelling{
+	margin-left: 81%;
+	position: absolute;
+}
