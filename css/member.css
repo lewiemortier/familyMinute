@@ -1,0 +1,71 @@
+.container{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.top{
+	height: 35%;
+	width: 100%;
+}
+
+.bottom{
+	background-color: #FF6633;
+	height: 65%;
+	width: 100%;
+}
+
+.photo{
+	top: 22.5%;
+	width: 50%;
+	height: 25%;
+	margin-left: 25%;
+	position: absolute;
+	background-color: #CC0066;
+}
+
+.form{
+	top: 50%;
+	width: 50%;
+	height: 25%;
+	margin-left: 25%;
+	position: absolute;
+}
+
+/*
+.navigation{
+	top: 75%;
+	position: absolute;
+}
+
+
+.navigation button{
+	top: 75%;
+	width: 20%;
+	position:absolute;
+}
+*/
+.navigation a{
+	font-size: 12px;
+}
+
+.post{
+	top: 85%;
+	margin-left: 7.5%;
+	width: 25%;
+	position: absolute;
+}
+
+.timeline{
+	top: 85%;
+	margin-left: 37.5%;
+	width: 25%;
+	position: absolute;
+}
+
+.schedule{
+	top: 85%;
+	margin-left: 67.5%;
+	width: 25%;
+	position: absolute;
+}

@@ -1,0 +1,66 @@
+.container{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.top{
+	height: 50%;
+	width: 100%;
+}
+
+.bottom{
+	background-color: #FF6633;
+	height: 50%;
+	width: 100%;
+}
+
+.photo{
+	top: 35%;
+	width: 50%;
+	height: 25%;
+	margin-left: 25%;
+	position: absolute;
+	background-color: #CC0066;
+}
+
+.name{
+	top: 62.5%;
+	width: 50%;
+	height: 30%;
+	margin-left: 25%;
+	position: absolute;
+	font-size: 15px;
+	text-align: center;
+}
+
+.navigation-button{
+	background-color: #FFFFFF;
+	height: 10%;
+	width: 25%;
+	position: absolute;
+}
+
+.sign-in{
+	margin-left: 25%;
+	top: 70%;
+	width: 22%;
+}
+
+.sign-up{
+	margin-left: 53%;
+	top: 70%;
+	width: 22%;
+}
+
+.facebook{
+	margin-left: 25%;
+	top: 82%;
+	width: 22%;
+}
+
+.google{
+	margin-left: 53%;
+	top: 82%;
+	width: 22%;
+}
