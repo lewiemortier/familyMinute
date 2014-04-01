@@ -24,11 +24,11 @@
 	background-color: #CC0066;
 }
 
-.form{
+form {
 	top: 32.5%;
-	width: 50%;
+	width: 70%;
 	height: 25%;
-	margin-left: 25%;
+	margin-left: 15%;
 	position: absolute;
 }
 
