@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no target-densitydpi=medium-dpi" />
 	<meta name="description" content="FamilyMinute">
 	<meta name="author" content="OrangeTeam">
 
@@ -44,28 +44,16 @@
 					</div>
 				</div>
 				<div id="loginCredentials">
-					<div class="navigation-button">
-						<a href="#" rel="external" id="signIn">
-							<img src="img/login.png">
-						</a>
-					</div>
-					<div class="navigation-button">
-						<a href="sign-up.html" rel="external" id="signUp">
-							<img src="img/signup.png">
-						</a>
-					</div>
-					<form>
-						<input type="text" name="username" id="username" placeholder="Username">
-						<input type="password" name="password" id="password" placeholder="Password">
-						<input type="submit" id="submit" class="ui-btn ui-corner-all" data-role="button" value="Sign in" />
+					
+					<form id="form">
+						<input type="text" name="username" id="username" placeholder="Username" autocomplete="off" style="padding: 15px;font-size: 20px;" required>
+						<input type="password" name="password" id="password" placeholder="Password" autocomplete="off" style="padding: 15px;font-size: 20px;" required>
+						<input type="submit" id="submit" class="ui-btn ui-corner-all" data-role="button" style="height: 30px;" value="Sign in" />
 					</form>
 				</div>
 			</div>
 			<div class="ui-block-c" style="width: 23%"></div>
-			
-			
 		</fieldset>
-	
-</div>
+	</div>
 </body>
 </html>

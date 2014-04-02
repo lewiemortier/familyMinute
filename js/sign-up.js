@@ -1,6 +1,10 @@
 $(document).on('pagebeforeshow', '#signUp', function(){
-	//check variables
-	
+
+	$('#signUp').css('background-image', 'url(img/signup/signupBackground.png)');
+	var height = screen.height;
+	var width = screen.width;
+	$('#signUp').css('background-size', width+'px '+height+'px');
+	$('#signUp').css('no-repeat');
 
 	$('#submit').on('click',function(e){
 		e.preventDefault();

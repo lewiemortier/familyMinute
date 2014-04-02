@@ -5,16 +5,6 @@
 	position: absolute;
 }
 
-.top{
-	height: 50%;
-	width: 100%;
-}
-
-.bottom{
-	height: 50%;
-	width: 100%;
-}
-
 .navigationButtons {
 	width: 100%;
 	position: absolute;
@@ -34,7 +24,12 @@
 #loginCredentials {
 	display: none;
 	margin: 0 auto;
-	width: 90%;
+	width: 140%;
 	top: 55%;
+	left: -20%;
 	position: relative;
+}
+
+#form {
+	margin-bottom: 100px;
 }
