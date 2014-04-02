@@ -24,7 +24,6 @@
 		<fieldset class="navigationButtons ui-grid-b">
 			<div class="ui-block-a" style="width: 23%"></div>
 			<div class="ui-block-b" style="width: 54%">
-				
 				<div id="initial">
 					<div class="navigation-button">
 						<a href="#" rel="external" id="signIn">
@@ -36,6 +35,7 @@
 							<img src="img/signup.png">
 						</a>
 					</div>
+
 					<div class="navigation-button">
 						<img src="img/facebook.png">
 					</div>
@@ -43,12 +43,22 @@
 						<img src="img/google.png">
 					</div>
 				</div>
-			<div>
-				<form id="loginCredentials">
-					<input type="text" name="username" id="username" placeholder="Username">
-					<input type="password" name="password" id="password" placeholder="Password">
-					<input type="submit" id="submit" class="ui-btn ui-corner-all" data-role="button" value="Sign in" />
-				</form>
+				<div id="loginCredentials">
+					<div class="navigation-button">
+						<a href="#" rel="external" id="signIn">
+							<img src="img/login.png">
+						</a>
+					</div>
+					<div class="navigation-button">
+						<a href="sign-up.html" rel="external" id="signUp">
+							<img src="img/signup.png">
+						</a>
+					</div>
+					<form>
+						<input type="text" name="username" id="username" placeholder="Username">
+						<input type="password" name="password" id="password" placeholder="Password">
+						<input type="submit" id="submit" class="ui-btn ui-corner-all" data-role="button" value="Sign in" />
+					</form>
 				</div>
 			</div>
 			<div class="ui-block-c" style="width: 23%"></div>

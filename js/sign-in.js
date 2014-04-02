@@ -8,15 +8,8 @@ $(document).on('pagebeforeshow', '#signIn', function(){
 	
 
 	$('#signIn').on('click',function(){
-
-		$(".top").animate({'height':'40%'},500);
-		$(".photo").animate({'top':'25%'},500);
-		$(".slogan").animate({'top':'50%'},500);
-		$("#navigationButtons .sign-in").animate({'top':'60%'},500);
-		$(".sign-up").animate({'top':'60%'},500);
-		$(".bottom").animate({'height':'60%'},500);
-		$('#initial').fadeOut(0);
 		$('#loginCredentials').fadeIn(500);
+		$('#initial').hide();
 	});
 
 	$('#loginCredentials #submit').on('click', function(e){
