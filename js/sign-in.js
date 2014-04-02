@@ -1,6 +1,14 @@
 $(document).on('pagebeforeshow', '#signIn', function(){
 	
-	$('#navigationButtons .sign-in').on('click',function(){
+	$('#signIn').css('background-image', 'url(img/background.png)');
+	var height = screen.height;
+	var width = screen.width;
+	$('#signIn').css('background-size', width+'px '+height+'px');
+	$('#signIn').css('no-repeat');
+	
+
+	$('#signIn').on('click',function(){
+
 		$(".top").animate({'height':'40%'},500);
 		$(".photo").animate({'top':'25%'},500);
 		$(".slogan").animate({'top':'50%'},500);
@@ -33,7 +41,8 @@ $(document).on('pagebeforeshow', '#signIn', function(){
 		else {
 			console.log('go to page home');
 			//go to home page
-			$.mobile.changePage("home.html");
+			// $.mobile.changePage("home.html");
+			window.location.href = "home.html";
 		}
 
 	});
