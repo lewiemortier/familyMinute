@@ -7,37 +7,51 @@
 	<meta name="description" content="FamilyMinute">
 	<meta name="author" content="OrangeTeam">
 
-	<title>Family Minute - home</title>
+	<title>Family Minute</title>
 
     <link rel="stylesheet" href="jquery/jquery.mobile.custom.structure.min.css" />
 	<link rel="stylesheet" href="jquery/jquery.mobile.custom.theme.min.css" />
-	
-	<link rel="stylesheet" href="css/home.css" type="text/css" />
+	<link rel="stylesheet" href="css/sign-in.css" type="text/css" />
 	<script src="jquery/jquery-2.1.0.min.js"></script>
 	<script src="jquery/jquery.mobile.custom.min.js"></script>
+	<script type="text/javascript" src="js/sign-in.js"></script>
 	
-
 </head>
 <body>
-<div class="container" data-role="page" id="home">
+<div class="container" data-role="page" id="signIn">
 	<div class="top"></div>
 	<div class="bottom">
-		<div class="name">Welcome John Doe!</div>
-		<div class="sign-in navigation-button">
-			<a href="post.html" rel="external">Post</a>
-		</div>
-		<div class="sign-up navigation-button">
-			<a href="family.html" rel="external">My Family</a>
-		</div>
-		<div class="facebook navigation-button" href="timeline.html">
-			<a href="timeline.html" rel="external">Timeline</a>
-		</div>
-		<div class="google navigation-button" href="settings.html">
-			<a href="settings.html" rel="external">Settings</a>
-		</div>
+		<fieldset class="navigationButtons ui-grid-b">
+			<div class="ui-block-a" style="width: 23%"></div>
+			<div class="ui-block-b" style="width: 54%">
+				<div class="navigation-button">
+					<a href="post.html" rel="external">
+						post
+					</a>
+				</div>
+				<div class="navigation-button">
+					<a href="family.html" rel="external">
+						My Family
+					</a>
+				</div>
+				<div class="navigation-button">
+					<a href="timeline.html" rel="external">
+						Timeline
+					</a>
+				</div>
+				<div class="navigation-button">
+					<a href="settings.html" rel="external">
+						settings
+					</a>
+				</div>
+				<form id="loginCredentials">
+					<input type="text" name="username" id="username" placeholder="Username">
+					<input type="password" name="password" id="password" placeholder="Password">
+					<input type="submit" id="submit" class="ui-btn ui-corner-all" data-role="button" value="Sign in" />
+				</form>
+			</div>
+			<div class="ui-block-c" style="width: 23%"></div>
+		</fieldset>
 	</div>
-	
-	<div class="photo">photo</div>
-</div>
 </body>
 </html>
