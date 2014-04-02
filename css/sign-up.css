@@ -21,11 +21,22 @@ form {
 	padding: 10px;
 }
 
-input {
+/*
+#form div input {
 	background-image: url(../img/signup/signup-bar.png);
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	height: 50px;
+	background-position: 50% 60%;
+	height: 91px;
 	width: 553px;
 	border: none;
 }
+
+#submit {
+	background-image: url(../img/signup/signup-bar.png);
+	background-repeat: no-repeat;
+	background-position: 50% 60%;
+	height: 91px;
+	width: 553px;
+	border: none;
+}
+*/
