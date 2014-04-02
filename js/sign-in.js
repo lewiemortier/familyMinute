@@ -9,6 +9,7 @@ $(document).on('pagebeforeshow', '#signIn', function(){
 
 	$('#signIn').on('click',function(){
 		$('#loginCredentials').fadeIn(500);
+		$('#loginCredentials').css('display', 'inline');
 		$('#initial').hide();
 	});
 
@@ -42,7 +43,6 @@ $(document).on('pagebeforeshow', '#signIn', function(){
 	//go to sign up
 	$('#navigationButtons .sign-up').on('click',function(){
 		$.mobile.changePage("sign-up.html");
-		// asda
 	});
 	
 });
