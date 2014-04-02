@@ -33,7 +33,8 @@ $(document).on('pagebeforeshow', '#signIn', function(){
 		else {
 			console.log('go to page home');
 			//go to home page
-			$.mobile.changePage("home.html");
+			// $.mobile.changePage("home.html");
+			window.location.href = "home.html";
 		}
 
 	});
