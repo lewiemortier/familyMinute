@@ -8,18 +8,18 @@
 .send-container{
 	background-color: #FFFFFF;
 	margin-left: 5%;
-	top: 5%;
 	width: 90%;
 	height: 40%;
+	top: 55%;
 	position: absolute;
 }
 
 .picture{
 	background-color: #FFFFFF;
 	margin-left: 5%;
+	top: 5%;
 	width: 42.5%;
 	height: 20%;
-	top: 50%;
 	position: absolute;
 }
 
@@ -28,7 +28,7 @@
 	margin-left: 52.5%;
 	width: 42.5%;
 	height: 20%;
-	top: 50%;
+	top: 5%;
 	position: absolute;
 }
 
@@ -37,7 +37,7 @@
 	margin-left: 5%;
 	width: 42.5%;
 	height: 20%;
-	top: 75%;
+	top: 30%;
 	position: absolute;
 }
 
@@ -46,7 +46,7 @@
 	margin-left: 52.5%;
 	width: 42.5%;
 	height: 20%;
-	top: 75%;
+	top: 30%;
 	position: absolute;
 }
 
@@ -57,7 +57,6 @@
 	height: 57%;
 	margin-left: 5%;
 	top: 5%;
-
 }
 
 .text{
