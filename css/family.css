@@ -3,12 +3,13 @@
 	width: 100%;
 	position: absolute;
 	background-color: #FF6633;
+	overflow-y: scroll;
 }
 
 .post {
-	background-color: yellow;
+	/* background-color: yellow; */
 	float: left;
-	width: 144px;
-	height: 125px;
+	width: 288px;
+	height: 250px;
 	margin: 2.5%;
 }
