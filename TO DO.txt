@@ -1,3 +1,3 @@
-- family CSS
+- family CSS + JS
 - schedule.html + CSS
 - settings.html + CSS 
