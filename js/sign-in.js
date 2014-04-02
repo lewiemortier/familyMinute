@@ -49,6 +49,7 @@ $(document).on('pagebeforeshow', '#signIn', function(){
 	//go to sign up
 	$('#navigationButtons .sign-up').on('click',function(){
 		$.mobile.changePage("sign-up.html");
+		// asda
 	});
 	
 });
