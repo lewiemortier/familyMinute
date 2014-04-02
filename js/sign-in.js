@@ -15,7 +15,7 @@ $(document).on('pagebeforeshow', '#signIn', function(){
 		$("#navigationButtons .sign-in").animate({'top':'60%'},500);
 		$(".sign-up").animate({'top':'60%'},500);
 		$(".bottom").animate({'height':'60%'},500);
-		$('#initial').fadeOut(500);
+		$('#initial').fadeOut(0);
 		$('#loginCredentials').fadeIn(500);
 	});
 
