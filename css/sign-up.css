@@ -19,24 +19,5 @@ form {
 
 #form div input {
 	padding: 10px;
+	font-size: 20px;
 }
-
-/*
-#form div input {
-	background-image: url(../img/signup/signup-bar.png);
-	background-repeat: no-repeat;
-	background-position: 50% 60%;
-	height: 91px;
-	width: 553px;
-	border: none;
-}
-
-#submit {
-	background-image: url(../img/signup/signup-bar.png);
-	background-repeat: no-repeat;
-	background-position: 50% 60%;
-	height: 91px;
-	width: 553px;
-	border: none;
-}
-*/
