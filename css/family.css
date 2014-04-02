@@ -5,47 +5,10 @@
 	background-color: #FF6633;
 }
 
-.send{
-	background-color: #FFFFFF;
-	margin-left: 5%;
-	top: 5%;
-	width: 90%;
-	height: 40%;
-	position: absolute;
-}
-
-.picture{
-	background-color: #FFFFFF;
-	margin-left: 5%;
-	width: 42.5%;
-	height: 20%;
-	top: 50%;
-	position: absolute;
-}
-
-.location{
-	background-color: #FFFFFF;
-	margin-left: 52.5%;
-	width: 42.5%;
-	height: 20%;
-	top: 50%;
-	position: absolute;
-}
-
-.schedule{
-	background-color: #FFFFFF;
-	margin-left: 5%;
-	width: 42.5%;
-	height: 20%;
-	top: 75%;
-	position: absolute;
-}
-
-.alert{
-	background-color: #FFFFFF;
-	margin-left: 52.5%;
-	width: 42.5%;
-	height: 20%;
-	top: 75%;
-	position: absolute;
+.post {
+	background-color: yellow;
+	float: left;
+	width: 144px;
+	height: 125px;
+	margin: 2.5%;
 }

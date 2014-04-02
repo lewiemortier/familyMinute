@@ -21,30 +21,32 @@
 <div class="container" data-role="page" id="signIn">
 	<div class="top"></div>
 	<div class="bottom">
-		<div id="navigationButtons">
+		<div>
+			<div class="photo">photo</div>
 			<div class="slogan">Share a minute with the ones that matter most!</div>
-			<div class="sign-in navigation-button">
+		</div>
+		<div class="navigationButtons">
+			<div class="action navigation-button">
 				<a href="#" rel="external" id="signIn">sign in</a>
 			</div>
-			<div class="sign-up navigation-button">
+			<div class="action navigation-button">
 				<a href="sign-up.html" rel="external" id="signUp">sign up</a>
 			</div>
-		</div>
-		<div id="initial">
-			<div class="facebook navigation-button">
-				facebook
+			<div id="initial">
+				<div class="action navigation-button">
+					facebook
+				</div>
+				<div class="action navigation-button">
+					google
+				</div>
 			</div>
-			<div class="google navigation-button">
-				google
-			</div>
+			<form id="loginCredentials">
+				<input type="text" name="username" id="username" placeholder="Username">
+				<input type="password" name="password" id="password" placeholder="Password">
+				<input type="submit" id="submit" class="ui-btn ui-corner-all" data-role="button" value="Sign in" />
+			</form>
 		</div>
-		<form id="loginCredentials">
-			<input type="text" name="username" id="username" placeholder="Username">
-			<input type="password" name="password" id="password" placeholder="Password">
-			<input type="submit" id="submit" class="ui-btn ui-corner-all" data-role="button" value="Sign in" />
-		</form>
-	</div>
-	<div class="photo">photo</div>
+	
 </div>
 </body>
 </html>
