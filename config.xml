@@ -1,0 +1,15 @@
+<widget id="com.example.hello" version="0.0.1">
+    <name>FamilyMinute</name>
+    <description>
+        Take a moment to share what you are up to. Have a family minute!
+    </description>
+    <author  href="http://phonegap.com">
+        Mind the gap - Orange team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="WebViewBounce" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+</widget>
