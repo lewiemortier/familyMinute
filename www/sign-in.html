@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+	<meta name="description" content="FamilyMinute">
+	<meta name="author" content="OrangeTeam">
+
+	<title>Family Minute</title>
+
+    <link rel="stylesheet" href="jquery/jquery.mobile.custom.structure.min.css" />
+	<link rel="stylesheet" href="jquery/jquery.mobile.custom.theme.min.css" />
+	<link rel="stylesheet" href="css/sign-in.css" type="text/css" />
+	<script src="jquery/jquery-2.1.0.min.js"></script>
+	<script src="jquery/jquery.mobile.custom.min.js"></script>
+	<script type="text/javascript" src="js/sign-in.js"></script>
+	
+</head>
+<body>
+<div data-role="page" id="signIn">
+	<div data-role="content">
+		<ul class="nav">
+			<li>
+				<a href="#" rel="external" id="signIn">
+					<img src="img/login.png">
+				</a>
+			</li>
+			<li>
+				<a href="sign-up.html" rel="external" id="signUp">
+					<img src="img/signup.png">
+				</a>
+			</li>
+			<li>
+				<img src="img/facebook.png">
+			</li>
+			<li>
+				<img src="img/google.png">
+			</li>
+		</ul>
+		<div id="loginCredentials">
+			
+			<form>
+				<input type="text" name="username" id="username" placeholder="Username" autocomplete="off" required>
+				<input type="password" name="password" id="password" placeholder="Password" autocomplete="off" required>
+				<input type="submit" id="submit" data-role="button" value="Sign in" />
+			</form>
+		</div>
+	</div>
+</body>
+</html>

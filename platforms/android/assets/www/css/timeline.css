@@ -1,0 +1,49 @@
+/*
+.nav{
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+.nav li{
+	float: left;
+	width: 18%;
+	padding: 1%
+}
+
+.nav li#timetravel{
+	float: left;
+	width: 36%;
+	padding: 1%
+}
+
+.nav li img{
+	width: 100%
+}
+
+.profile-pic{
+	width: 25%;
+	height: 15%;
+	margin:5% 1% -10%;
+	position: relative;
+}
+
+.post-content{
+	width: 90%;
+	margin-left: 5%;
+	height: 30%;
+	border: 1px dashed black;
+}
+.post-conten{
+	width: 80%;
+	margin-left: 5%;
+	height: 30%;
+}
+
+#video1{
+	width: 100%;
+}
+
+#playButton{
+	z-index: 1;
+}
+*/

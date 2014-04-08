@@ -1,0 +1,10 @@
+#signUp .ui-content{
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+input:required {
+	border: 1px solid red;
+}

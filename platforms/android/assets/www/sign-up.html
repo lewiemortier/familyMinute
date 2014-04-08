@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no target-densitydpi=medium-dpi" />
+	<meta name="description" content="FamilyMinute">
+	<meta name="author" content="OrangeTeam">
+
+	<title>Family Minute</title>
+
+    <link rel="stylesheet" href="jquery/jquery.mobile.custom.structure.min.css" />
+	<link rel="stylesheet" href="jquery/jquery.mobile.custom.theme.min.css" />
+	<link rel="stylesheet" href="css/sign-up.css" type="text/css" />
+	<script src="jquery/jquery-2.1.0.min.js"></script>
+	<script src="jquery/jquery.mobile.custom.min.js"></script>
+	<script src="js/sign-up.js"></script>
+
+</head>
+<body>
+<div data-role="page" id="signUp">
+	<div data-role="content">
+		<form action="#" id="form">
+			<input type="text" id="name" name="name" placeholder="Name" autocomplete="off" required>
+			<input type="text" id="fname" name="fname" placeholder="Family Name" autocomplete="off" required>
+			<input type="text" id="bday" data-role="date" name="bdate"  placeholder="Birth Date" autocomplete="off" >
+			<input type="email" id="email" name="email" placeholder="Email" autocomplete="off" >
+			<input type="text" id="address" name="address" placeholder="Address" autocomplete="off" >
+			<input type="password" id="pwd" placeholder="Password" name="pwd" autocomplete="off" required>
+			<input type="password" id="pwd2" placeholder="Confirm Password" name="vpwd" autocomplete="off" required>
+			<input type="submit" id="submit" value="Sign up" />
+		</form>
+	</div>
+</body>
+</html>

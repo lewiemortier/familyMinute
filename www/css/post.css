@@ -1,0 +1,21 @@
+#post .ui-content{
+	position:absolute;
+	bottom: 0%;
+	left: 0;
+	right: 0
+}
+
+.nav{
+	margin: 0 5%;
+	list-style-type: none;
+	padding: 0;
+}
+.nav li{
+	float: left;
+	width: 48%;
+	padding: 1%
+}
+
+.nav li img{
+	width: 100%
+}
