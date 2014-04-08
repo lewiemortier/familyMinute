@@ -1,4 +1,0 @@
-familyMinute
-============
-
-Family Minute
