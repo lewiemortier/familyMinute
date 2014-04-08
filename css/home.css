@@ -1,0 +1,23 @@
+.container{
+	z-index: 50;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.top{
+	height: 50%;
+	width: 100%;
+}
+
+.bottom{
+	height: 50%;
+	width: 100%;
+}
+
+.navigation-button{
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+	float: left;
+}

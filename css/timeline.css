@@ -1,0 +1,131 @@
+.container{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.top{
+	height: 15%;
+	width: 100%;
+	background-color: #FF6633;
+	position: fixed;
+	z-index: 1;
+}
+
+.bottom{
+	height: 85%;
+	width: 100%;
+}
+
+.navigation{
+	background-color: #c0c0c0;
+	top: 5%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+.link{
+	width: 14%;
+}
+
+.home{
+	margin-left: 5%;
+	position: absolute;
+}
+
+.post{
+	margin-left: 24%;
+	position: absolute;
+}
+
+.my-family{
+	margin-left: 43%;
+	position: absolute;
+}
+
+.schedule{
+	margin-left: 62%;
+	position: absolute;
+}
+
+.time-travelling{
+	margin-left: 81%;
+	position: absolute;
+}
+
+.profile-pic1{
+	background-color: red;
+	position: absolute;
+	width: 20%;
+	top: 20%;
+	height: 10%;
+	margin-left: 5%;
+}
+
+.post-content1{
+	background-color: yellow;
+	position: absolute;
+	width: 80%;
+	margin-left: 10%;
+	top:22%;
+	height: 30%;
+}
+
+.profile-pic2{
+	background-color: red;
+	position: absolute;
+	width: 20%;
+	top: 55%;
+	height: 10%;
+	margin-left: 5%;
+}
+
+.post-content2{
+	background-color: yellow;
+	position: absolute;
+	width: 80%;
+	margin-left: 10%;
+	top:57%;
+	height: 30%;
+}
+
+.profile-pic3{
+	background-color: red;
+	position: absolute;
+	width: 20%;
+	top: 90%;
+	height: 10%;
+	margin-left: 5%;
+}
+
+.post-content3{
+	background-color: yellow;
+	position: absolute;
+	width: 80%;
+	margin-left: 10%;
+	top:92%;
+	height: 30%;
+}
+
+.profile-pic4{
+	background-color: red;
+	position: absolute;
+	width: 20%;
+	top: 125%;
+	height: 10%;
+	margin-left: 5%;
+}
+
+.post-content4{
+	background-color: yellow;
+	position: absolute;
+	width: 80%;
+	margin-left: 10%;
+	top:127%;
+	height: 30%;
+}
+
+.name {
+	
+}
